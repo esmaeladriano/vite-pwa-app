@@ -1,0 +1,37 @@
+{
+  "name": "vite-pwa-app",
+  "version": "1.0.0",
+  "description": "A Progressive Web App built with Vite",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.4",
+    "@capacitor/cli": "^6.2.1",
+    "@capacitor/core": "^7.4.4",
+    "pinia": "^2.0.33",
+    "vue": "^3.2.0",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vue/compiler-sfc": "^3.2.45",
+    "sass": "^1.58.0",
+    "typescript": "^4.9.5",
+    "vite": "^2.9.18",
+    "vite-plugin-pwa": "^0.11.13"
+  },
+  "keywords": [
+    "vite",
+    "pwa",
+    "vue",
+    "mobile",
+    "apk"
+  ],
+  "author": "",
+  "license": "MIT"
+}
